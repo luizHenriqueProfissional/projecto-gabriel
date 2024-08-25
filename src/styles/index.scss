@@ -165,14 +165,19 @@
     .event__details{
       margin: 20px 0;
     }
-    .event__image{
-      margin: 0;
+  }
+  @media(max-width:450px){
+    .image-principal{
+      max-width: 300px;
     }
-    .event__details__description{
-      max-width: 100%;
-      margin:15px 0;
+    .subititle-page{
+      font-size: 15px;
+      max-width: 80%;
     }
     .event__details__title{
+      width: 100%;
+      text-align: center;
       margin: 0;
+      margin-bottom: 15px;
     }
   }
