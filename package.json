@@ -1,7 +1,6 @@
 {
   "name": "gb",
   "version": "1.0.0",
-  "main": "Gulpfile.js",
   "scripts": {
     "gulp": "gulp",
     "dev": "gulp watch"
