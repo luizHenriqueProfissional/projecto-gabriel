@@ -13,7 +13,13 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+  .container1{
+    display: block;
+  }
+  .container{
+    display: flex;
+    width: 80%;
+  }
   .image-principal{
     padding: 35px;
     display: flex;
@@ -80,15 +86,7 @@
   
   .event--image-left{
     flex-direction: row-reverse;  
-  }
-  
-  
-  .container{
-      display: flex;
-      gap: 20px;
-      width: 80%;
-  }
-  
+  }  
   .event__details{
       color: #fff;
   }
@@ -161,11 +159,13 @@
       width:500px;
     }
     .container{
-      gap: 0;
       display: block;
       text-align: center;
     }
     .event__details{
       margin: 20px 0;
+    }
+    .event--image-left{
+      flex-direction: column;  
     }
   }
